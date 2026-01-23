@@ -8,7 +8,7 @@ int main() {
     cout << "Enter first number: ";
     cin >> a;
 
-    cout << "Enter operator (+, -, *, /, &, |, <, >): ";
+    cout << "Enter operator (+, -, *, /, &, |, <, >, ^): ";
     cin >> op;
 
     cout << "Enter second number: ";
@@ -49,6 +49,8 @@ int main() {
         case '>':   
             cout << "Right Shift = " << (a >> b);
             break;
+        case '^':
+            cout << "Xor operat = " << (a ^ b);
 
         default:
             cout << "Invalid operator!";
