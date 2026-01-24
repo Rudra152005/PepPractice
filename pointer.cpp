@@ -1,3 +1,5 @@
+// a array of sort integer the adress of the first element is 10 then second element memory adress is
+
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
